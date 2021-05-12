@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*
+    Utilitarios
+*/
+
+.margin-top{
+    margin-top: 55px;
+}
+
+.margin-bot{
+    margin-bottom: 55px;
+}
+
+/************/
+
+.container{
+    max-width: 600px;
+    width: 100%;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.tarefas-container{
+    
+    padding: 55px;
+    background-color: rgb(250,250,250);
+    color: rgb(55,55,55);
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    transition: 0.3s;
+    -webkit-box-shadow: 5px 5px 15px 5px #0000002f; 
+    box-shadow: 5px 5px 15px 5px #0000002f;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: #777;
+}
+
+.tarefas-input{
+    margin-top:25px;
+    display: flex;
+}
+
+.tarefas-input #input-tarefas{
+    width: 80%;
+    border-radius: 20px;
+    line-height: 55px;
+    font-size: 25px;
+    border: 0;
+    padding-left: 15px;
+    -webkit-box-shadow: 5px 5px 15px 5px #0000002f; 
+    box-shadow: 5px 5px 15px 5px #0000002f;
+}
+
+
+.tarefas-input #tarefas-btn{
+    width: 20%;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    line-height: 55px;
+    font-size: 25px;
+    background-color: #47e69e;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    -webkit-box-shadow: 5px 5px 15px 5px #0000002f; 
+    box-shadow: 5px 5px 15px 5px #0000002f;
+}
+
+.tarefas-input #tarefas-btn:hover{
+    transform: scale(1.2);
+}
+
+input, button:focus{
+    outline: 0;
+}
+
+.tarefas li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin:10px 0px;
+    padding: 0 15px;
+    list-style-type: none;
+    line-height: 55px;
+    background-color: rgb(240,240,240);
+    border-radius: 20px;
+    
+}
+
+.tarefas li span{
+    cursor: pointer;
+    color: #47e69e;
+    transition: 0.3s;
+}
+
+.tarefas li span:hover{
+    transform: scale(1.2);
+}
